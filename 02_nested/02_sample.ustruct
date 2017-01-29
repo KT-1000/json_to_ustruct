@@ -1,0 +1,23 @@
+USTRUCT()
+struct FNested
+{
+    GENERATED_USTRUCT_BODY()
+
+    UPROPERTY()
+    FString id;
+
+    UPROPERTY()
+    FString name;
+};
+
+USTRUCT()
+struct FJsonData
+{
+    GENERATED_USTRUCT_BODY()
+
+    UPROPERTY()
+    FNested nested;
+
+    UPROPERTY()
+    FString foo;
+};
