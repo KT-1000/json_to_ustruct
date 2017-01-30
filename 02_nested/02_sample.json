@@ -1,7 +1,7 @@
 {
+  "foo" : "foobar",
   "nested" : {
         "id" : "654asdf",
         "name" : "The Name"
-  },
-  "foo" : "foobar"
+  }
 }
